@@ -10,7 +10,7 @@
 				"-fansi-escape-codes",
 				"-g",
 				"${file}",
-				"-I","./include",
+				"-I","/Users/raven/GITHUB_REPOSITORY/Plate-database/include",
 				"-o",
 				"${fileDirname}/${fileBasenameNoExtension}"
 			],

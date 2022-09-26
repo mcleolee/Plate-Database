@@ -9,13 +9,21 @@ connection = mysql.connector.connect(host='localhost',
                                      )
 
 cursor = connection.cursor()
+# cursor.execute("CREATE DATABASE `test`;")
+cursor.execute("SHOW DATABASES;")
 
+records = cursor.fetchall()
+for r in records:
+    print(r)
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+cursor.close()
+connection.close()
 
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+# def print_hi(name):
+#     # Use a breakpoint in the code line below to debug your script.
+#     print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+#
+#
+# # Press the green button in the gutter to run the script.
+# if __name__ == '__main__':
+#     print_hi('PyCharm')

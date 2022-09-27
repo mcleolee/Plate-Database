@@ -1,7 +1,15 @@
 #include <iostream>
-#include "Python.h"
+// #include "Python.h"
 
 using namespace std;
+// int main(int argc, char* argv[])
+// {
+//     cout << "ETC" << endl;
+
+//     getchar();
+//     return 0;
+// }
+
 int main(int argc, char* argv[])
 {
     cout << "ETC" << endl;

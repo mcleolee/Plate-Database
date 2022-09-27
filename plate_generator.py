@@ -18,12 +18,14 @@ if __name__=='__main__':
     city = '川' #更改城市简称，即可生成该城市牌号
     print()
     license_plates = []
-    for i in range(5):
-        s = f'{(i+1):2d}. {license_plate(city)}'
+    for i in range(500):
+        # 要数字的话用这句
+        # s = f'{(i+1):3d}. {license_plate(city)}'
+        s = f'{license_plate(city)}'
         print(f'    {s}')
         license_plates.append(s[4:])
 
-        
+
     # print('﹊'*21)
     # choice = int(input(f'\n请选择您心仪的号码:'))
     # print('\n'*1)

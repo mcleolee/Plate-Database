@@ -1,5 +1,5 @@
 #include <iostream>
-#include <Python.h>
+#include "Python.h"
 
 using namespace std;
 int main(int argc, char* argv[])

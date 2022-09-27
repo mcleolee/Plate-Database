@@ -4,7 +4,7 @@ BytesIO -- for bytes
 """
 
 import unittest
-from test import support
+from Insert import support
 
 import io
 import _pyio as pyio

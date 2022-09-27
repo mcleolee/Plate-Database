@@ -9,7 +9,7 @@ import sys
 import weakref
 
 import unittest
-from test import support
+from Insert import support
 
 from test.pickletester import AbstractHookTests
 from test.pickletester import AbstractUnpickleTests

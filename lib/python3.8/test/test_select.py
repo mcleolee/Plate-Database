@@ -3,7 +3,7 @@ import os
 import select
 import sys
 import unittest
-from test import support
+from Insert import support
 
 @unittest.skipIf((sys.platform[:3]=='win'),
                  "can't easily test on this system")

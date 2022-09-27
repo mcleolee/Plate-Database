@@ -8,7 +8,7 @@ import urllib.parse
 from http.server import (HTTPServer as _HTTPServer,
     SimpleHTTPRequestHandler, BaseHTTPRequestHandler)
 
-from test import support
+from Insert import support
 
 here = os.path.dirname(__file__)
 

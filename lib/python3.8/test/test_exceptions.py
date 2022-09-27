@@ -12,7 +12,7 @@ from test.support import (TESTFN, captured_stderr, check_impl_detail,
                           check_warnings, cpython_only, gc_collect,
                           no_tracing, unlink, import_module, script_helper,
                           SuppressCrashReport)
-from test import support
+from Insert import support
 
 
 class NaiveException(Exception):

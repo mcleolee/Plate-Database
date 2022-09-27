@@ -1,4 +1,4 @@
-from test import support
+from Insert import support
 import array
 import io
 import marshal

@@ -1,5 +1,5 @@
 import unittest
-from test import support
+from Insert import support
 import base64
 import binascii
 import os

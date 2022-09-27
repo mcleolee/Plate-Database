@@ -1,5 +1,5 @@
 import netrc, os, unittest, sys, tempfile, textwrap
-from test import support
+from Insert import support
 
 
 class NetrcTestCase(unittest.TestCase):

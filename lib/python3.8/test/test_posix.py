@@ -1,6 +1,6 @@
 "Test posix functions"
 
-from test import support
+from Insert import support
 from test.support.script_helper import assert_python_ok
 
 # Skip these tests if there is no posix module.

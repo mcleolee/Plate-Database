@@ -1,6 +1,6 @@
 from collections import deque
 import unittest
-from test import support, seq_tests
+from Insert import support, seq_tests
 import gc
 import weakref
 import copy
@@ -1074,7 +1074,7 @@ def test_main(verbose=None):
         print(counts)
 
     # doctests
-    from test import test_deque
+    from Insert import test_deque
     support.run_doctest(test_deque, verbose)
 
 if __name__ == "__main__":

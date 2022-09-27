@@ -19,7 +19,7 @@ class PEP3131Test(unittest.TestCase):
 
     def test_invalid(self):
         try:
-            from test import badsyntax_3131
+            from Insert import badsyntax_3131
         except SyntaxError as s:
             self.assertEqual(str(s),
               "invalid character in identifier (badsyntax_3131.py, line 2)")

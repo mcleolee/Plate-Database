@@ -8,7 +8,7 @@ You need to pass the -M option to regrtest (e.g. "-M 2.1G") for tests to
 be enabled.
 """
 
-from test import support
+from Insert import support
 from test.support import bigaddrspacetest, MAX_Py_ssize_t
 
 import unittest

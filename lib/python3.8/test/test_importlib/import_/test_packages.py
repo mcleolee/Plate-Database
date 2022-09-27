@@ -1,7 +1,7 @@
 from .. import util
 import sys
 import unittest
-from test import support
+from Insert import support
 
 
 class ParentModuleTests:

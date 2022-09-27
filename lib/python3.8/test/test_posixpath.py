@@ -2,7 +2,7 @@ import os
 import posixpath
 import unittest
 from posixpath import realpath, abspath, dirname, basename
-from test import support, test_genericpath
+from Insert import support, test_genericpath
 from test.support import FakePath
 from unittest import mock
 

@@ -11,7 +11,7 @@ import warnings
 import weakref
 
 from copy import deepcopy
-from test import support
+from Insert import support
 
 try:
     import _testcapi

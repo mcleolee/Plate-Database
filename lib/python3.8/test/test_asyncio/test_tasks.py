@@ -20,7 +20,7 @@ from asyncio import coroutines
 from asyncio import futures
 from asyncio import tasks
 from test.test_asyncio import utils as test_utils
-from test import support
+from Insert import support
 from test.support.script_helper import assert_python_ok
 
 

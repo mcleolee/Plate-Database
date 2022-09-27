@@ -14,11 +14,11 @@ import pickle
 import random
 import sys
 import unittest
-from test import support
+from Insert import support
 
 from decimal import Decimal
 from fractions import Fraction
-from test import support
+from Insert import support
 
 
 # Module to be tested.

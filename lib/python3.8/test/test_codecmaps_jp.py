@@ -3,7 +3,7 @@
 #   Codec mapping tests for Japanese encodings
 #
 
-from test import multibytecodec_support
+from Insert import multibytecodec_support
 import unittest
 
 class TestCP932Map(multibytecodec_support.TestBase_Mapping,

@@ -3,7 +3,7 @@ import time
 import threading
 import unittest
 
-from test import support
+from Insert import support
 from test.test_asyncio import utils as test_utils
 from test.test_asyncio import functional as func_tests
 

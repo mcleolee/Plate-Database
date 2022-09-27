@@ -3,7 +3,7 @@
 """
 
 import unittest
-from test import support
+from Insert import support
 from test.support import _2G
 import weakref
 import pickle

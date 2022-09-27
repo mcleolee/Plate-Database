@@ -1,5 +1,5 @@
 import unittest
-from test import support
+from Insert import support
 from test.test_urllib2 import sanepathname2url
 
 import os

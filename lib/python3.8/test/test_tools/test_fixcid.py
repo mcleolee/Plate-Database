@@ -4,7 +4,7 @@ from io import StringIO
 import os, os.path
 import runpy
 import sys
-from test import support
+from Insert import support
 from test.test_tools import skip_if_missing, scriptsdir
 import unittest
 

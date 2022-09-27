@@ -2,7 +2,7 @@
 # XXXX Should not do tests around zero only
 
 from test.support import run_unittest, verbose, requires_IEEE_754
-from test import support
+from Insert import support
 import unittest
 import itertools
 import decimal

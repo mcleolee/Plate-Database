@@ -9,7 +9,7 @@ import threading
 import time
 import traceback
 import types
-from test import support
+from Insert import support
 
 from test.libregrtest.runtest import (
     runtest, INTERRUPTED, CHILD_ERROR, PROGRESS_MIN_TIME,

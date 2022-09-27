@@ -28,7 +28,7 @@ import time
 import unittest
 import uuid
 import warnings
-from test import support
+from Insert import support
 from platform import win32_is_iot
 
 try:
@@ -822,7 +822,7 @@ class UtimeTests(unittest.TestCase):
             os.utime(self.fname, ns=(get_bad_int((1, 2, 3)), 1))
 
 
-from test import mapping_tests
+from Insert import mapping_tests
 
 class EnvironTests(mapping_tests.BasicTestMappingProtocol):
     """check that os.environ object conform to mapping protocol"""

@@ -3,7 +3,7 @@ import re
 import sys
 import warnings
 from inspect import isabstract
-from test import support
+from Insert import support
 try:
     from _abc import _get_dump
 except ImportError:

@@ -11,7 +11,7 @@ import textwrap
 
 from contextlib import ExitStack
 from io import StringIO
-from test import support
+from Insert import support
 # This little helper class is essential for testing pdb under doctest.
 from test.test_doctest import _FakeInput
 from unittest.mock import patch
@@ -1592,7 +1592,7 @@ class PdbTestCase(unittest.TestCase):
         ])
 
 def load_tests(*args):
-    from test import test_pdb
+    from Insert import test_pdb
     suites = [
         unittest.makeSuite(PdbTestCase),
         doctest.DocTestSuite(test_pdb)

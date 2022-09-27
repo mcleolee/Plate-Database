@@ -7,7 +7,7 @@ import textwrap
 import unittest
 import warnings
 
-from test import support
+from Insert import support
 
 
 class SortedDict(collections.UserDict):

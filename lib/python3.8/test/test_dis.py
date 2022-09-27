@@ -485,7 +485,7 @@ class DisTests(unittest.TestCase):
             expected = _BIG_LINENO_FORMAT2 % (i + 2)
             self.do_disassembly_test(func(i), expected)
 
-        from test import dis_module
+        from Insert import dis_module
         self.do_disassembly_test(dis_module, dis_module_expected_results)
 
     def test_big_offsets(self):

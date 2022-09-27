@@ -26,7 +26,7 @@ from pathlib import Path
 
 from test.support import verbose, TESTFN, check_warnings
 from test.support import unlink as safe_unlink
-from test import support
+from Insert import support
 from unittest import mock
 
 

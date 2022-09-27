@@ -42,7 +42,7 @@ import struct
 import sys
 import tempfile
 from test.support.script_helper import assert_python_ok, assert_python_failure
-from test import support
+from Insert import support
 import textwrap
 import threading
 import time

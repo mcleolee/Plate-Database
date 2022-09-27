@@ -4,7 +4,7 @@ import telnetlib
 import threading
 import contextlib
 
-from test import support
+from Insert import support
 import unittest
 
 HOST = support.HOST

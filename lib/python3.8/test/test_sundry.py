@@ -2,7 +2,7 @@
 import importlib
 import platform
 import sys
-from test import support
+from Insert import support
 import unittest
 
 class TestUntestedModules(unittest.TestCase):

@@ -3,7 +3,7 @@
 #   Codec mapping tests for PRC encodings
 #
 
-from test import multibytecodec_support
+from Insert import multibytecodec_support
 import unittest
 
 class TestGB2312Map(multibytecodec_support.TestBase_Mapping,

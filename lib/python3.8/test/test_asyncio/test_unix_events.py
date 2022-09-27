@@ -14,7 +14,7 @@ import tempfile
 import threading
 import unittest
 from unittest import mock
-from test import support
+from Insert import support
 
 if sys.platform == 'win32':
     raise unittest.SkipTest('UNIX only')

@@ -3,7 +3,7 @@ import io
 import os
 import sys
 import subprocess
-from test import support
+from Insert import support
 import unittest
 import unittest.test
 

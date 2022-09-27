@@ -1,5 +1,5 @@
 import unittest
-from test import support
+from Insert import support
 from test.test_grammar import (VALID_UNDERSCORE_LITERALS,
                                INVALID_UNDERSCORE_LITERALS)
 

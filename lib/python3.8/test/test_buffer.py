@@ -13,7 +13,7 @@
 
 import contextlib
 import unittest
-from test import support
+from Insert import support
 from itertools import permutations, product
 from random import randrange, sample, choice
 import warnings

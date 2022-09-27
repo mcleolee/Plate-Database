@@ -17,7 +17,7 @@ import sys
 import threading
 import unittest
 import warnings
-from test import support
+from Insert import support
 from test.support import _4G, bigmemtest, import_fresh_module
 from test.support import requires_hashdigest
 from http.client import HTTPException

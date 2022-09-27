@@ -1,7 +1,7 @@
 """test script for a few new invalid token catches"""
 
 import sys
-from test import support
+from Insert import support
 from test.support import script_helper
 import unittest
 

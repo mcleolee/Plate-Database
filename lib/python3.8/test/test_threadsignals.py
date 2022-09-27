@@ -4,7 +4,7 @@ import unittest
 import signal
 import os
 import sys
-from test import support
+from Insert import support
 import _thread as thread
 import time
 

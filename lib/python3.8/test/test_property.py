@@ -3,7 +3,7 @@
 
 import sys
 import unittest
-from test import support
+from Insert import support
 
 class PropertyBase(Exception):
     pass

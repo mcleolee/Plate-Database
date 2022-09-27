@@ -3,7 +3,7 @@ import time
 import queue
 import random
 import unittest
-from test import support
+from Insert import support
 from unittest import mock
 
 DELAY = 0

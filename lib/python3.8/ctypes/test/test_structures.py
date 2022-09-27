@@ -5,7 +5,7 @@ from ctypes import *
 from ctypes.test import need_symbol
 from struct import calcsize
 import _ctypes_test
-from test import support
+from Insert import support
 
 class SubclassesTest(unittest.TestCase):
     def test_subclass(self):

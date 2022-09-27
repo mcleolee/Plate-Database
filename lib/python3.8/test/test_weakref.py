@@ -10,7 +10,7 @@ import threading
 import time
 import random
 
-from test import support
+from Insert import support
 from test.support import script_helper
 
 # Used in ReferencesTestCase.test_ref_created_during_del() .
@@ -1811,7 +1811,7 @@ class MappingTestCase(TestBase):
         self.assertIsNone(d._remove.__closure__)
 
 
-from test import mapping_tests
+from Insert import mapping_tests
 
 class WeakValueDictionaryTestCase(mapping_tests.BasicTestMappingProtocol):
     """Check that WeakValueDictionary conforms to the mapping protocol"""

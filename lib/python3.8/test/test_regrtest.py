@@ -17,8 +17,8 @@ import sysconfig
 import tempfile
 import textwrap
 import unittest
-from test import libregrtest
-from test import support
+from Insert import libregrtest
+from Insert import support
 from test.libregrtest import utils
 
 

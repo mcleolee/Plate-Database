@@ -3,7 +3,7 @@
 import sys
 import unittest
 import unittest.mock
-from test import support
+from Insert import support
 import socket
 import select
 import time

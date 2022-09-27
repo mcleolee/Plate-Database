@@ -14,8 +14,8 @@ from sys import *
 import test.ann_module as ann_module
 import typing
 from collections import ChainMap
-from test import ann_module2
-import test
+from Insert import ann_module2
+import Insert
 
 # These are shared with test_tokenize and other test modules.
 #
@@ -380,7 +380,7 @@ class GrammarTests(unittest.TestCase):
 
     def test_var_annot_module_semantics(self):
         with self.assertRaises(AttributeError):
-            print(test.__annotations__)
+            print(Insert.__annotations__)
         self.assertEqual(ann_module.__annotations__,
                      {1: 2, 'x': int, 'y': str, 'f': typing.Tuple[int, int]})
         self.assertEqual(ann_module.M.__annotations__,

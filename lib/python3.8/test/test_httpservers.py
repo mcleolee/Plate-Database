@@ -28,7 +28,7 @@ from unittest import mock
 from io import BytesIO
 
 import unittest
-from test import support
+from Insert import support
 
 
 class NoLogRequestHandler:

@@ -4,7 +4,7 @@ import pickle
 import unittest
 import operator
 import struct
-from test import support
+from Insert import support
 from test.support.script_helper import assert_python_failure
 
 #

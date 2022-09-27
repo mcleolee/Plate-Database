@@ -14,7 +14,7 @@ import threading
 import re
 import io
 import contextlib
-from test import support
+from Insert import support
 
 try:
     import gzip

@@ -1,6 +1,6 @@
 import unittest
-from test import audiotests
-from test import support
+from Insert import audiotests
+from Insert import support
 from audioop import byteswap
 import io
 import struct

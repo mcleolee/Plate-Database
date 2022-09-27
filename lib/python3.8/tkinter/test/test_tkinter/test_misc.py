@@ -1,6 +1,6 @@
 import unittest
 import tkinter
-from test import support
+from Insert import support
 from tkinter.test.support import AbstractTkTest
 
 support.requires('gui')

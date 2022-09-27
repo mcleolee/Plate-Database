@@ -13,7 +13,7 @@ import copy
 import unittest
 
 from io import StringIO
-from test import support
+from Insert import support
 
 
 import optparse

@@ -1,7 +1,7 @@
 # Tests for rich comparisons
 
 import unittest
-from test import support
+from Insert import support
 
 import operator
 

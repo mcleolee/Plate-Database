@@ -10,7 +10,7 @@ import struct
 import sys
 import unittest
 from subprocess import PIPE, Popen
-from test import support
+from Insert import support
 from test.support import _4G, bigmemtest
 from test.support.script_helper import assert_python_ok, assert_python_failure
 

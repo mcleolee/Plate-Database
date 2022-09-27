@@ -7,7 +7,7 @@ import unittest
 import encodings
 from unittest import mock
 
-from test import support
+from Insert import support
 
 try:
     import _testcapi

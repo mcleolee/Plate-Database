@@ -5,7 +5,7 @@ import sys
 import unittest
 from unittest import mock
 from test.support import run_unittest, unix_shell
-from test import support as test_support
+from Insert import support as test_support
 
 from distutils.spawn import find_executable
 from distutils.spawn import _nt_quote_args

@@ -5,7 +5,7 @@ Unittest for time.strftime
 import calendar
 import sys
 import re
-from test import support
+from Insert import support
 import time
 import unittest
 

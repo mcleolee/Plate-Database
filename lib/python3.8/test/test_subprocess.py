@@ -1,6 +1,6 @@
 import unittest
 from unittest import mock
-from test import support
+from Insert import support
 import subprocess
 import sys
 import signal

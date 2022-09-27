@@ -1,6 +1,6 @@
 import collections.abc
 import unittest
-from test import support
+from Insert import support
 
 import xmlrpc.client as xmlrpclib
 

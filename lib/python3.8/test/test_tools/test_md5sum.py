@@ -2,7 +2,7 @@
 
 import os
 import unittest
-from test import support
+from Insert import support
 from test.support.script_helper import assert_python_ok, assert_python_failure
 
 from test.test_tools import scriptsdir, skip_if_missing

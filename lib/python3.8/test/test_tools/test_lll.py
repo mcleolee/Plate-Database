@@ -3,7 +3,7 @@
 import os
 import sys
 import tempfile
-from test import support
+from Insert import support
 from test.test_tools import skip_if_missing, import_tool
 import unittest
 

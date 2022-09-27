@@ -1,5 +1,5 @@
 import sys
-from test import list_tests
+from Insert import list_tests
 from test.support import cpython_only
 import pickle
 import unittest

@@ -6,7 +6,7 @@ import os
 import sys
 import tempfile
 import unittest
-from test import support
+from Insert import support
 
 if sys.platform != 'win32':
     raise unittest.SkipTest("test only relevant on win32")

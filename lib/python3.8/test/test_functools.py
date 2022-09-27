@@ -7,7 +7,7 @@ from itertools import permutations
 import pickle
 from random import choice
 import sys
-from test import support
+from Insert import support
 import threading
 import time
 import typing

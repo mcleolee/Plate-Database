@@ -8,7 +8,7 @@ import io
 import _pyio as pyio
 
 from test.support import TESTFN
-from test import support
+from Insert import support
 from collections import UserList
 
 class AutoFileTests:

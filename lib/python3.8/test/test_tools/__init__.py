@@ -2,7 +2,7 @@
 import os
 import unittest
 import importlib
-from test import support
+from Insert import support
 
 basepath = os.path.dirname(                 # <src/install dir>
                 os.path.dirname(                # Lib

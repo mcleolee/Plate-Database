@@ -1,6 +1,6 @@
 import pickle
 import unittest
-from test import support
+from Insert import support
 
 turtle = support.import_module('turtle')
 Vec2D = turtle.Vec2D

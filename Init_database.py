@@ -6,15 +6,20 @@ connection = mysql.connector.connect(host='localhost',
                                      port='3306',
                                      user='root',
                                      password='TstwTdtct42'
+                                     # database='xxx'
                                      )
 
 cursor = connection.cursor()
-# cursor.execute("CREATE DATABASE `test`;")
-cursor.execute("SHOW DATABASES;")
+# cursor.execute("DROP DATABASE `test`;")
+# CREATE  DATABASE `ETC_CARS`;
+# USE `ETC_CARS`;
+# CREATE TABLE all_cars(
+# 	`ic`		VARCHAR(128),
+#     `plate`		VARCHAR(30) UNIQUE,
+#     `balance`	INT,
+#     PRIMARY KEY (`plate`)
+# );
 
-records = cursor.fetchall()
-for r in records:
-    print(r)
 
 cursor.close()
 connection.close()

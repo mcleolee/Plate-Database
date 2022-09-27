@@ -8,7 +8,7 @@ import email.message
 import re
 import io
 import tempfile
-from test import support
+from Insert import support
 import unittest
 import textwrap
 import mailbox

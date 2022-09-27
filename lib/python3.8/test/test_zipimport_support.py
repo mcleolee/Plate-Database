@@ -28,7 +28,7 @@ verbose = test.support.verbose
 #  test_cmd_line_script (covers the zipimport support in runpy)
 
 # Retrieve some helpers from other test cases
-from test import (test_doctest, sample_doctest, sample_doctest_no_doctests,
+from Insert import (test_doctest, sample_doctest, sample_doctest_no_doctests,
                   sample_doctest_no_docstrings)
 
 

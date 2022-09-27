@@ -1,4 +1,4 @@
-from test import support
+from Insert import support
 support.requires('audio')
 
 from test.support import findfile

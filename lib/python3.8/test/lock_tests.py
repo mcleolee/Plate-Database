@@ -9,7 +9,7 @@ import threading
 import unittest
 import weakref
 
-from test import support
+from Insert import support
 
 
 def _wait():

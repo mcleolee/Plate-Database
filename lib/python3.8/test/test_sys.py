@@ -1,4 +1,4 @@
-from test import support
+from Insert import support
 from test.support.script_helper import assert_python_ok, assert_python_failure
 import builtins
 import codecs

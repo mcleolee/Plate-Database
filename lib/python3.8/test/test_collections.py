@@ -9,7 +9,7 @@ import pickle
 from random import choice, randrange
 import string
 import sys
-from test import support
+from Insert import support
 import types
 import unittest
 

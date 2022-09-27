@@ -12,7 +12,7 @@ from asyncio.proactor_events import _ProactorSocketTransport
 from asyncio.proactor_events import _ProactorWritePipeTransport
 from asyncio.proactor_events import _ProactorDuplexPipeTransport
 from asyncio.proactor_events import _ProactorDatagramTransport
-from test import support
+from Insert import support
 from test.test_asyncio import utils as test_utils
 
 

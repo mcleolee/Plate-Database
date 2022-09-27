@@ -4,7 +4,7 @@ import subprocess
 import sys
 import unittest
 
-from test import support
+from Insert import support
 from test.support import script_helper
 
 

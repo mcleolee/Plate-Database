@@ -3,7 +3,7 @@
 
 import os, sys, errno
 import unittest
-from test import support
+from Insert import support
 import threading
 from platform import machine, win32_edition
 

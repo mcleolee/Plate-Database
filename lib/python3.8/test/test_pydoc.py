@@ -29,7 +29,7 @@ from test.support import (
     reap_children, reap_threads, captured_output, captured_stdout,
     captured_stderr, unlink, requires_docstrings
 )
-from test import pydoc_mod
+from Insert import pydoc_mod
 
 
 class nonascii:
@@ -1034,7 +1034,7 @@ class TestDescriptions(unittest.TestCase):
 
     def test_module(self):
         # Check that pydocfodder module can be described
-        from test import pydocfodder
+        from Insert import pydocfodder
         doc = pydoc.render_doc(pydocfodder)
         self.assertIn("pydocfodder", doc)
 

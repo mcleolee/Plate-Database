@@ -9,7 +9,7 @@ import unittest
 from asyncio import base_events
 from asyncio import constants
 from unittest import mock
-from test import support
+from Insert import support
 from test.test_asyncio import utils as test_utils
 
 try:

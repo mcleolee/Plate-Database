@@ -6,7 +6,7 @@ import sys
 import types
 import unittest
 import warnings
-from test import support
+from Insert import support
 from test.support.script_helper import assert_python_ok
 
 

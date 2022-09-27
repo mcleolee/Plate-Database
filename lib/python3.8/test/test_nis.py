@@ -1,4 +1,4 @@
-from test import support
+from Insert import support
 import unittest
 
 # Skip test if nis module does not exist.

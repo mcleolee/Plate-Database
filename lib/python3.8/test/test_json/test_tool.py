@@ -3,7 +3,7 @@ import sys
 import textwrap
 import unittest
 from subprocess import Popen, PIPE
-from test import support
+from Insert import support
 from test.support.script_helper import assert_python_ok
 
 

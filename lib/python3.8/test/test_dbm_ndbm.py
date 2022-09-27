@@ -1,4 +1,4 @@
-from test import support
+from Insert import support
 support.import_module("dbm.ndbm") #skip if not supported
 import os
 import unittest

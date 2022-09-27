@@ -5,7 +5,7 @@ import pathlib
 import pickle
 import random
 import sys
-from test import support
+from Insert import support
 import unittest
 
 from test.support import (

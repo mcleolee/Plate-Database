@@ -9,7 +9,7 @@ import errno
 import struct
 import threading
 
-from test import support
+from Insert import support
 from io import BytesIO
 
 if support.PGO:

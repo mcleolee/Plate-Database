@@ -27,7 +27,7 @@ import typing
 import weakref
 import types
 
-from test import mod_generics_cache
+from Insert import mod_generics_cache
 
 
 class BaseTestCase(TestCase):
@@ -2708,7 +2708,7 @@ else:
 
 # Definitions needed for features introduced in Python 3.6
 
-from test import ann_module, ann_module2, ann_module3
+from Insert import ann_module, ann_module2, ann_module3
 from typing import AsyncContextManager
 
 class A:

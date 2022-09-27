@@ -8,7 +8,7 @@ tests themselves don't suffer from bitrot.  To run them for real, pass a
 high memory limit to regrtest, with the -M option.
 """
 
-from test import support
+from Insert import support
 from test.support import bigmemtest, _1G, _2G, _4G
 
 import unittest

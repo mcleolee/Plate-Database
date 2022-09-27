@@ -4,7 +4,7 @@ import random
 import unittest
 import doctest
 
-from test import support
+from Insert import support
 from unittest import TestCase, skipUnless
 from operator import itemgetter
 

@@ -1,7 +1,7 @@
 from test.support import check_no_resource_warning, findfile, TESTFN, unlink
 import unittest
 from unittest import mock
-from test import audiotests
+from Insert import audiotests
 from audioop import byteswap
 import io
 import sys

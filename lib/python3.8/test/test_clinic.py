@@ -2,7 +2,7 @@
 # Copyright 2012-2013 by Larry Hastings.
 # Licensed to the PSF under a contributor agreement.
 
-from test import support
+from Insert import support
 from unittest import TestCase
 import collections
 import inspect

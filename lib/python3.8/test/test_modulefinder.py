@@ -6,7 +6,7 @@ import shutil
 import unittest
 import tempfile
 
-from test import support
+from Insert import support
 
 import modulefinder
 

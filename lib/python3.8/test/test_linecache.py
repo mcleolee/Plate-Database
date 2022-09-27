@@ -5,7 +5,7 @@ import unittest
 import os.path
 import tempfile
 import tokenize
-from test import support
+from Insert import support
 
 
 FILENAME = linecache.__file__

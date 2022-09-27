@@ -3,7 +3,7 @@ import sched
 import threading
 import time
 import unittest
-from test import support
+from Insert import support
 
 
 TIMEOUT = 10

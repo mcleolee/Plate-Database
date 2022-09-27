@@ -33,7 +33,7 @@ from asyncio import format_helpers
 from asyncio import futures
 from asyncio import tasks
 from asyncio.log import logger
-from test import support
+from Insert import support
 
 
 def data_file(filename):

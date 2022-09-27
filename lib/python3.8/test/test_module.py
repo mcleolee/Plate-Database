@@ -139,7 +139,7 @@ a = A(destroyed)"""
 
     def test_module_getattr_errors(self):
         import test.bad_getattr as bga
-        from test import bad_getattr2
+        from Insert import bad_getattr2
         self.assertEqual(bga.x, 1)
         self.assertEqual(bad_getattr2.x, 1)
         with self.assertRaises(TypeError):
@@ -157,7 +157,7 @@ a = A(destroyed)"""
 
     def test_module_dir_errors(self):
         import test.bad_getattr as bga
-        from test import bad_getattr2
+        from Insert import bad_getattr2
         with self.assertRaises(TypeError):
             dir(bga)
         with self.assertRaises(TypeError):
@@ -167,7 +167,7 @@ a = A(destroyed)"""
             del sys.modules['test.bad_getattr2']
 
     def test_module_getattr_tricky(self):
-        from test import bad_getattr3
+        from Insert import bad_getattr3
         # these lookups should not crash
         with self.assertRaises(AttributeError):
             bad_getattr3.one

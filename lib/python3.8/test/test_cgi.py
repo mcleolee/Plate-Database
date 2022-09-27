@@ -5,7 +5,7 @@ import tempfile
 import unittest
 from collections import namedtuple
 from io import StringIO, BytesIO
-from test import support
+from Insert import support
 
 class HackedSysModule:
     # The regression test will have real values in sys.argv, which

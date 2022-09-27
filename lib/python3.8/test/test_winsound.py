@@ -4,7 +4,7 @@ import functools
 import time
 import unittest
 
-from test import support
+from Insert import support
 
 support.requires('audio')
 winsound = support.import_module('winsound')

@@ -4,7 +4,7 @@ import shutil
 import tempfile
 import unittest
 
-from test import support
+from Insert import support
 
 
 class FileCompareTestCase(unittest.TestCase):

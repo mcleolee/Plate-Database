@@ -4,7 +4,7 @@ import _pyio as pyio
 import unittest
 import os
 import sys
-from test import support
+from Insert import support
 
 if not hasattr(sys.stdin, 'newlines'):
     raise unittest.SkipTest(

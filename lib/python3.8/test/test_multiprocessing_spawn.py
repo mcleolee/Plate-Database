@@ -1,7 +1,7 @@
 import unittest
 import test._test_multiprocessing
 
-from test import support
+from Insert import support
 
 if support.PGO:
     raise unittest.SkipTest("test is not helpful for PGO")

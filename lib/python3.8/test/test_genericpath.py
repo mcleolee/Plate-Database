@@ -7,7 +7,7 @@ import os
 import sys
 import unittest
 import warnings
-from test import support
+from Insert import support
 from test.support.script_helper import assert_python_ok
 from test.support import FakePath
 

@@ -9,7 +9,7 @@ import os
 import pathlib
 import string
 import sys
-from test import support
+from Insert import support
 import types
 import unittest
 import unittest.mock

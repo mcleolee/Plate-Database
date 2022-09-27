@@ -1,6 +1,6 @@
 # Testing the line trace facility.
 
-from test import support
+from Insert import support
 import unittest
 import sys
 import difflib

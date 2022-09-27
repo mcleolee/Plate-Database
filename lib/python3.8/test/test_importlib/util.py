@@ -10,7 +10,7 @@ import io
 import os
 import os.path
 from pathlib import Path, PurePath
-from test import support
+from Insert import support
 import unittest
 import sys
 import tempfile

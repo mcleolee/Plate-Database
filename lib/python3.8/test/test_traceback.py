@@ -6,7 +6,7 @@ import linecache
 import sys
 import unittest
 import re
-from test import support
+from Insert import support
 from test.support import TESTFN, Error, captured_output, unlink, cpython_only
 from test.support.script_helper import assert_python_ok
 import textwrap

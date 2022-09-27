@@ -19,7 +19,7 @@ try:
 except ImportError:
     _have_multiprocessing = False
 
-from test import support
+from Insert import support
 from test.support import script_helper
 
 from .test_py_compile import without_source_date_epoch

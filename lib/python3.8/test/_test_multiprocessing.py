@@ -25,7 +25,7 @@ import weakref
 import warnings
 import test.support
 import test.support.script_helper
-from test import support
+from Insert import support
 
 
 # Skip tests if _multiprocessing wasn't built.

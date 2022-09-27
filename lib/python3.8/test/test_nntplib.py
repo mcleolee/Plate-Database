@@ -9,7 +9,7 @@ import os.path
 import re
 import threading
 
-from test import support
+from Insert import support
 from nntplib import NNTP, GroupInfo
 import nntplib
 from unittest.mock import patch

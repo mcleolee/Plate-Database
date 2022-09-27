@@ -3,7 +3,7 @@
 import copy
 import pickle
 import io
-from test import support
+from Insert import support
 import unittest
 
 import xml.dom.minidom

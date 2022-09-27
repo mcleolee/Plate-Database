@@ -20,7 +20,7 @@ import codecs
 import os.path
 import shutil
 from urllib.error import URLError
-from test import support
+from Insert import support
 from test.support import findfile, run_unittest, FakePath, TESTFN
 
 TEST_XMLFILE = findfile("test.xml", subdir="xmltestdata")

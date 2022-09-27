@@ -12,7 +12,7 @@ import warnings
 import unittest
 TestCase = unittest.TestCase
 
-from test import support
+from Insert import support
 
 here = os.path.dirname(__file__)
 # Self-signed cert file for 'localhost'

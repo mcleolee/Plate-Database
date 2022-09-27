@@ -29,7 +29,7 @@ try:
 except ImportError:
     posix = None
 
-from test import support
+from Insert import support
 from test.support import TESTFN, FakePath
 
 TESTFN2 = TESTFN + "2"

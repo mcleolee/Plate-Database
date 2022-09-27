@@ -1,6 +1,6 @@
 # test asynchat
 
-from test import support
+from Insert import support
 
 import asynchat
 import asyncore

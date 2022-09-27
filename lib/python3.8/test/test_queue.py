@@ -6,7 +6,7 @@ import threading
 import time
 import unittest
 import weakref
-from test import support
+from Insert import support
 
 py_queue = support.import_fresh_module('queue', blocked=['_queue'])
 c_queue = support.import_fresh_module('queue', fresh=['_queue'])

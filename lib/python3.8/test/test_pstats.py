@@ -1,5 +1,5 @@
 import unittest
-from test import support
+from Insert import support
 from io import StringIO
 import pstats
 from pstats import SortKey

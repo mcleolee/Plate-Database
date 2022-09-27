@@ -4,7 +4,7 @@ import sys
 from asyncio import proactor_events
 from itertools import cycle, islice
 from test.test_asyncio import utils as test_utils
-from test import support
+from Insert import support
 
 
 class MyProto(asyncio.Protocol):

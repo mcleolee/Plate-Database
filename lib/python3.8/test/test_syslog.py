@@ -1,5 +1,5 @@
 
-from test import support
+from Insert import support
 syslog = support.import_module("syslog") #skip if not supported
 import unittest
 

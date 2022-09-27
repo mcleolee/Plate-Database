@@ -6,7 +6,7 @@ import tempfile
 import threading
 import unittest
 from contextlib import *  # Tests __all__
-from test import support
+from Insert import support
 import weakref
 
 

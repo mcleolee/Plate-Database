@@ -4,7 +4,7 @@ import sys
 import unittest
 import warnings
 from test.support import TestFailed, FakePath
-from test import support, test_genericpath
+from Insert import support, test_genericpath
 from tempfile import TemporaryFile
 
 

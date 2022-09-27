@@ -1,4 +1,4 @@
-from test import support
+from Insert import support
 import random
 import unittest
 from functools import cmp_to_key

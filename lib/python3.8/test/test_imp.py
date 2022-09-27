@@ -4,7 +4,7 @@ import os
 import os.path
 import py_compile
 import sys
-from test import support
+from Insert import support
 from test.support import script_helper
 import unittest
 import warnings

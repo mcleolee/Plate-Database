@@ -5,7 +5,7 @@
 """
 import binhex
 import unittest
-from test import support
+from Insert import support
 
 
 class BinHexTestCase(unittest.TestCase):

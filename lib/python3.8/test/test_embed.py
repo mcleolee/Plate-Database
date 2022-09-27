@@ -1,5 +1,5 @@
 # Run the tests in Programs/_testembed.c (tests for the CPython embedding APIs)
-from test import support
+from Insert import support
 import unittest
 
 from collections import namedtuple

@@ -21,7 +21,7 @@ import sys
 import time
 import unittest
 
-from test import support
+from Insert import support
 
 @contextlib.contextmanager
 def kill_on_error(proc):

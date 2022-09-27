@@ -10,7 +10,7 @@ Modified for Python 2.0 by Fredrik Lundh (fredrik@pythonware.com)
 import unittest
 import unicodedata
 
-from test import support
+from Insert import support
 from http.client import HTTPException
 from test.test_normalization import check_version
 

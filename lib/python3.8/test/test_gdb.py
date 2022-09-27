@@ -12,7 +12,7 @@ import sysconfig
 import textwrap
 import unittest
 
-from test import support
+from Insert import support
 from test.support import run_unittest, findfile, python_is_optimized
 
 def get_gdb_version():

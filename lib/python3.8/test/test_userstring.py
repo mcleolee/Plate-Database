@@ -2,7 +2,7 @@
 # UserString instances should behave similar to builtin string objects.
 
 import unittest
-from test import string_tests
+from Insert import string_tests
 
 from collections import UserString
 

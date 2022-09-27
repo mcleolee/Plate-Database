@@ -9,7 +9,7 @@ import datetime
 import codecs
 import binascii
 import collections
-from test import support
+from Insert import support
 from io import BytesIO
 
 from plistlib import UID

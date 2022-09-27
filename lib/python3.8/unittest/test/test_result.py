@@ -2,7 +2,7 @@ import io
 import sys
 import textwrap
 
-from test import support
+from Insert import support
 
 import traceback
 import unittest

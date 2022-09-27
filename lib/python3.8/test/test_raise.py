@@ -3,7 +3,7 @@
 
 """Tests for the raise statement."""
 
-from test import support
+from Insert import support
 import sys
 import types
 import unittest

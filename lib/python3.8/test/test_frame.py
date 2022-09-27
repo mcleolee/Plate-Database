@@ -3,7 +3,7 @@ import types
 import unittest
 import weakref
 
-from test import support
+from Insert import support
 
 
 class ClearTest(unittest.TestCase):

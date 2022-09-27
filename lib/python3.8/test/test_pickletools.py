@@ -1,6 +1,6 @@
 import pickle
 import pickletools
-from test import support
+from Insert import support
 from test.pickletester import AbstractPickleTests
 import unittest
 

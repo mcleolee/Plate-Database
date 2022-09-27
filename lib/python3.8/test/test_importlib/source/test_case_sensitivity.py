@@ -5,7 +5,7 @@ importlib = util.import_importlib('importlib')
 machinery = util.import_importlib('importlib.machinery')
 
 import os
-from test import support as test_support
+from Insert import support as test_support
 import unittest
 
 

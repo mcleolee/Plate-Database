@@ -14,7 +14,7 @@ import sys
 import unicodedata
 import unittest
 import warnings
-from test import support, string_tests
+from Insert import support, string_tests
 
 # Error handling (bad decoder return)
 def search_function(encoding):

@@ -1,12 +1,12 @@
 import os
 import unittest
 import random
-from test import support
+from Insert import support
 import _thread as thread
 import time
 import weakref
 
-from test import lock_tests
+from Insert import lock_tests
 
 NUMTASKS = 10
 NUMTRIPS = 3

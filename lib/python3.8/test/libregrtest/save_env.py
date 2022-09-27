@@ -8,7 +8,7 @@ import sys
 import sysconfig
 import threading
 import warnings
-from test import support
+from Insert import support
 from test.libregrtest.utils import print_warning
 try:
     import _multiprocessing, multiprocessing.process

@@ -1,4 +1,4 @@
-from test import support
+from Insert import support
 import decimal
 import enum
 import locale

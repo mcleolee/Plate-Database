@@ -6,8 +6,8 @@ import sys
 import threading
 import weakref
 
-from test import support
-from test import lock_tests
+from Insert import support
+from Insert import lock_tests
 
 
 class ModuleLockAsRLockTests:

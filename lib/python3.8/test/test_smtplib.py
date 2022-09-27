@@ -19,7 +19,7 @@ import textwrap
 import threading
 
 import unittest
-from test import support, mock_socket
+from Insert import support, mock_socket
 from test.support import HOST
 from test.support import threading_setup, threading_cleanup, join_thread
 from test.support import requires_hashdigest

@@ -1,4 +1,4 @@
-from test import support
+from Insert import support
 
 # Skip this test if _tkinter does not exist.
 support.import_module('_tkinter')

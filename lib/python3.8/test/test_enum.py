@@ -8,7 +8,7 @@ from collections import OrderedDict
 from enum import Enum, IntEnum, EnumMeta, Flag, IntFlag, unique, auto
 from io import StringIO
 from pickle import dumps, loads, PicklingError, HIGHEST_PROTOCOL
-from test import support
+from Insert import support
 from datetime import timedelta
 
 

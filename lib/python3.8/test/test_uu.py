@@ -4,7 +4,7 @@ Nick Mathewson
 """
 
 import unittest
-from test import support
+from Insert import support
 
 import os
 import stat

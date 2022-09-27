@@ -2,7 +2,7 @@
 Test script for doctest.
 """
 
-from test import support
+from Insert import support
 import doctest
 import functools
 import os
@@ -3010,7 +3010,7 @@ def test_main():
     ret = support.run_doctest(doctest, verbosity=True)
 
     # Check the doctest cases defined here:
-    from test import test_doctest
+    from Insert import test_doctest
     support.run_doctest(test_doctest, verbosity=True)
 
     # Run unittests

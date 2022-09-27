@@ -12,7 +12,7 @@ import textwrap
 import threading
 import time
 import unittest
-from test import support
+from Insert import support
 from test.support import MISSING_C_DOCSTRINGS
 from test.support.script_helper import assert_python_failure, assert_python_ok
 try:

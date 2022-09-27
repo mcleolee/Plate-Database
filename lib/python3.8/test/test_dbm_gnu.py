@@ -1,4 +1,4 @@
-from test import support
+from Insert import support
 gdbm = support.import_module("dbm.gnu") #skip if not supported
 import unittest
 import os

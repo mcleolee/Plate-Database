@@ -4,7 +4,7 @@
 import subprocess
 import sys
 import unittest
-from test import support
+from Insert import support
 
 if not hasattr(sys, "addaudithook") or not hasattr(sys, "audit"):
     raise unittest.SkipTest("test only relevant when sys.audit is available")

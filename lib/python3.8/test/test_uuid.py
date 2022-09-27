@@ -1,5 +1,5 @@
 import unittest.mock
-from test import support
+from Insert import support
 import builtins
 import contextlib
 import copy

@@ -8,7 +8,7 @@ import sysconfig
 import unittest
 from collections import namedtuple
 
-from test import support
+from Insert import support
 from test.support.script_helper import run_python_until_end
 
 

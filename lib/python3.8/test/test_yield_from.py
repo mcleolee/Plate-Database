@@ -11,7 +11,7 @@ import unittest
 import inspect
 
 from test.support import captured_stderr, disable_gc, gc_collect
-from test import support
+from Insert import support
 
 class TestPEP380Operation(unittest.TestCase):
     """

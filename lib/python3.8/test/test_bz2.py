@@ -1,4 +1,4 @@
-from test import support
+from Insert import support
 from test.support import bigmemtest, _4G
 
 import unittest

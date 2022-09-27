@@ -1,5 +1,5 @@
 from importlib import _bootstrap_external
-from test import support
+from Insert import support
 import unittest
 
 from .. import util

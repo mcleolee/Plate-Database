@@ -10,7 +10,7 @@ import time
 import traceback
 import unittest
 
-from test import support
+from Insert import support
 from test.libregrtest.refleak import dash_R, clear_caches
 from test.libregrtest.save_env import saved_test_environment
 from test.libregrtest.utils import format_duration, print_warning

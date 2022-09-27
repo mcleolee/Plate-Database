@@ -1,6 +1,6 @@
 import unittest
-from test import support
-from test import test_urllib
+from Insert import support
+from Insert import test_urllib
 
 import os
 import io

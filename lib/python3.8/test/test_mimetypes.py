@@ -5,7 +5,7 @@ import pathlib
 import sys
 import unittest
 
-from test import support
+from Insert import support
 from platform import win32_edition
 
 # Tell it we don't know about external files:

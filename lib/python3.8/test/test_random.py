@@ -7,7 +7,7 @@ import pickle
 import warnings
 from functools import partial
 from math import log, exp, pi, fsum, sin, factorial
-from test import support
+from Insert import support
 from fractions import Fraction
 
 

@@ -10,7 +10,7 @@ import weakref
 import inspect
 
 from copy import deepcopy
-from test import support
+from Insert import support
 
 import unittest
 

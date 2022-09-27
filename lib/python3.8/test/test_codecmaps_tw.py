@@ -3,7 +3,7 @@
 #   Codec mapping tests for ROC encodings
 #
 
-from test import multibytecodec_support
+from Insert import multibytecodec_support
 import unittest
 
 class TestBIG5Map(multibytecodec_support.TestBase_Mapping,

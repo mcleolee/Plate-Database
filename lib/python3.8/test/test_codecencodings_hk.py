@@ -3,7 +3,7 @@
 #   Codec encoding tests for HongKong encodings.
 #
 
-from test import multibytecodec_support
+from Insert import multibytecodec_support
 import unittest
 
 class Test_Big5HKSCS(multibytecodec_support.TestBase, unittest.TestCase):

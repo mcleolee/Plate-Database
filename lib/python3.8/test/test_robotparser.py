@@ -3,7 +3,7 @@ import os
 import threading
 import unittest
 import urllib.robotparser
-from test import support
+from Insert import support
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
 

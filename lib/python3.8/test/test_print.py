@@ -2,7 +2,7 @@ import unittest
 import sys
 from io import StringIO
 
-from test import support
+from Insert import support
 
 NotDefined = object()
 

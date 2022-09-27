@@ -9,7 +9,7 @@ import os
 import stat
 import unittest
 import dbm.dumb as dumbdbm
-from test import support
+from Insert import support
 from functools import partial
 
 _fname = support.TESTFN

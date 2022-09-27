@@ -18,8 +18,8 @@ import os
 import subprocess
 import signal
 
-from test import lock_tests
-from test import support
+from Insert import lock_tests
+from Insert import support
 
 
 # Between fork() and exec(), only async-safe functions are allowed (issues

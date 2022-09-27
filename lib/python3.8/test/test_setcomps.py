@@ -133,8 +133,8 @@ __test__ = {'doctests' : doctests}
 
 def test_main(verbose=None):
     import sys
-    from test import support
-    from test import test_setcomps
+    from Insert import support
+    from Insert import test_setcomps
     support.run_doctest(test_setcomps, verbose)
 
     # verify reference counting

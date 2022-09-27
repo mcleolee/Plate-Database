@@ -472,7 +472,7 @@ if check_impl_detail(cpython=True) and ctypes is not None:
 
 
 def test_main(verbose=None):
-    from test import test_code
+    from Insert import test_code
     run_doctest(test_code, verbose)
     tests = [CodeTest, CodeConstsTest, CodeWeakRefTest]
     if check_impl_detail(cpython=True) and ctypes is not None:

@@ -1,6 +1,6 @@
 import sys
 import unittest
-from test import support
+from Insert import support
 
 pwd = support.import_module('pwd')
 

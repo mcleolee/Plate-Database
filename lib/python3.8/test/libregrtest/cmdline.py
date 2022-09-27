@@ -1,7 +1,7 @@
 import argparse
 import os
 import sys
-from test import support
+from Insert import support
 
 
 USAGE = """\

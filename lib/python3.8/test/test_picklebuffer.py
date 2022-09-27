@@ -8,7 +8,7 @@ from pickle import PickleBuffer
 import weakref
 import unittest
 
-from test import support
+from Insert import support
 
 
 class B(bytes):

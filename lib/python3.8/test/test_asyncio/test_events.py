@@ -31,7 +31,7 @@ from asyncio import events
 from asyncio import proactor_events
 from asyncio import selector_events
 from test.test_asyncio import utils as test_utils
-from test import support
+from Insert import support
 
 
 def tearDownModule():

@@ -4,7 +4,7 @@ import os
 import sys
 import subprocess
 from unittest import mock
-from test import support
+from Insert import support
 
 
 URL = 'http://www.example.com'

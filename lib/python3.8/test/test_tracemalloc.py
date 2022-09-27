@@ -6,7 +6,7 @@ import unittest
 from unittest.mock import patch
 from test.support.script_helper import (assert_python_ok, assert_python_failure,
                                         interpreter_requires_environment)
-from test import support
+from Insert import support
 
 try:
     import _testcapi

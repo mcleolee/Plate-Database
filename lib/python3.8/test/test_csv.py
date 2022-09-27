@@ -9,7 +9,7 @@ from tempfile import TemporaryFile
 import csv
 import gc
 import pickle
-from test import support
+from Insert import support
 from itertools import permutations
 from textwrap import dedent
 from collections import OrderedDict

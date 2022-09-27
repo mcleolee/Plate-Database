@@ -8,7 +8,7 @@ import sys
 import tempfile
 import unittest
 
-from test import support
+from Insert import support
 
 
 def without_source_date_epoch(fxn):

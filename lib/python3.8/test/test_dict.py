@@ -7,7 +7,7 @@ import string
 import sys
 import unittest
 import weakref
-from test import support
+from Insert import support
 
 
 class DictTest(unittest.TestCase):
@@ -1373,7 +1373,7 @@ class CAPITest(unittest.TestCase):
         self.assertRaises(Exc, dict_getitem_knownhash, d, k2, hash(k2))
 
 
-from test import mapping_tests
+from Insert import mapping_tests
 
 class GeneralMappingTests(mapping_tests.BasicTestMappingProtocol):
     type2test = dict

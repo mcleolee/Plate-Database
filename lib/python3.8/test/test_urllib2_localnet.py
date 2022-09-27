@@ -8,7 +8,7 @@ import threading
 import unittest
 import hashlib
 
-from test import support
+from Insert import support
 
 try:
     import ssl

@@ -1,5 +1,5 @@
 import unittest
-from test import support
+from Insert import support
 
 # Skip this test if _tkinter wasn't built.
 support.import_module('_tkinter')

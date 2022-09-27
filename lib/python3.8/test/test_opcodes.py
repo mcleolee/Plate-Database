@@ -1,7 +1,7 @@
 # Python test set -- part 2, opcodes
 
 import unittest
-from test import ann_module, support
+from Insert import ann_module, support
 
 class OpcodeTest(unittest.TestCase):
 

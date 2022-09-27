@@ -2,7 +2,7 @@
 Test implementation of the PEP 509: dictionary versionning.
 """
 import unittest
-from test import support
+from Insert import support
 
 # PEP 509 is implemented in CPython but other Python implementations
 # don't require to implement it

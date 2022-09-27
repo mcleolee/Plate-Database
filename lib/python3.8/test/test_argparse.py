@@ -12,7 +12,7 @@ import argparse
 
 from io import StringIO
 
-from test import support
+from Insert import support
 from unittest import mock
 class StdIOBuffer(StringIO):
     pass

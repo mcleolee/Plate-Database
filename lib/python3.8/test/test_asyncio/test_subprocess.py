@@ -8,7 +8,7 @@ import asyncio
 from asyncio import base_subprocess
 from asyncio import subprocess
 from test.test_asyncio import utils as test_utils
-from test import support
+from Insert import support
 
 if sys.platform != 'win32':
     from asyncio import unix_events

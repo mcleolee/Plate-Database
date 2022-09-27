@@ -4,7 +4,7 @@ import unittest
 from textwrap import dedent
 from contextlib import ExitStack
 from unittest import mock
-from test import support
+from Insert import support
 
 code = support.import_module('code')
 

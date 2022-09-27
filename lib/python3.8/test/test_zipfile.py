@@ -945,8 +945,8 @@ class PyZipFileTests(unittest.TestCase):
             self.assertCompiledIn('email/mime/text.py', names)
 
     def test_write_filtered_python_package(self):
-        import test
-        packagedir = os.path.dirname(test.__file__)
+        import Insert
+        packagedir = os.path.dirname(Insert.__file__)
         self.requiresWriteAccess(packagedir)
 
         with TemporaryFile() as t, zipfile.PyZipFile(t, "w") as zipfp:

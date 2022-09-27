@@ -5,7 +5,7 @@ import sys
 import unittest
 from unittest import mock
 
-from test import support
+from Insert import support
 
 
 class PlatformTest(unittest.TestCase):

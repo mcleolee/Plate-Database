@@ -19,7 +19,7 @@ from test.libregrtest.runtest import (
 from test.libregrtest.setup import setup_tests
 from test.libregrtest.pgo import setup_pgo_tests
 from test.libregrtest.utils import removepy, count, format_duration, printlist
-from test import support
+from Insert import support
 
 
 # bpo-38203: Maximum delay in seconds to exit Python (call Py_Finalize()).

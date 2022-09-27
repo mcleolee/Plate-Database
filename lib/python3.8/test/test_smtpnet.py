@@ -1,5 +1,5 @@
 import unittest
-from test import support
+from Insert import support
 import smtplib
 import socket
 

@@ -26,7 +26,7 @@ try:
 except ImportError:
     np = None
 
-from test import support
+from Insert import support
 from test.support import (
     TestFailed, TESTFN, run_with_locale, no_tracing,
     _2G, _4G, bigmemtest, reap_threads, forget,

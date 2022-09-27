@@ -7,7 +7,7 @@ import subprocess
 import sys
 import tempfile
 import unittest
-from test import support
+from Insert import support
 from test.support.script_helper import (
     spawn_python, kill_python, assert_python_ok, assert_python_failure,
     interpreter_requires_environment

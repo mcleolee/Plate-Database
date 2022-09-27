@@ -10,15 +10,16 @@ connection = mysql.connector.connect(host='localhost',
                                      )
 
 cursor = connection.cursor()
-# cursor.execute("DROP DATABASE `test`;")
-# CREATE  DATABASE `ETC_CARS`;
-# USE `ETC_CARS`;
-# CREATE TABLE all_cars(
-# 	`ic`		VARCHAR(128),
-#     `plate`		VARCHAR(30) UNIQUE,
-#     `balance`	INT,
-#     PRIMARY KEY (`plate`)
-# );
+
+cursor.execute("CREATE DATABASE `ETC_CARS`;")
+cursor.execute("USE `ETC_CARS`;")
+cursor.execute("CREATE TABLE all_cars(  \
+	`ic`		VARCHAR(128),           \
+    `plate`		VARCHAR(30) UNIQUE,     \
+    `balance`	INT,                    \
+    PRIMARY KEY (`plate`)               \
+);                                      \
+")
 
 
 cursor.close()

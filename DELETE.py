@@ -8,5 +8,8 @@ connection = mysql.connector.connect(host='localhost',
 
 cursor = connection.cursor()
 
+cursor.execute("DROP DATABASE `ETC_CARS`;")
+cursor.execute("DROP DATABASE `test`;")
+
 cursor.close()
 connection.close()

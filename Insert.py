@@ -17,6 +17,7 @@ for r in records:
 
 cursor.execute("\
     INSERT INTO `all_cars` (plate, balance) VALUES ('川A42853',320);\
+    INSERT INTO `all_cars` (plate, balance) VALUES ('川A42853',320);\
     INSERT INTO `all_cars` (plate, balance) VALUES ('川A09568',536);\
     INSERT INTO `all_cars` (plate, balance) VALUES ('川A235B3',76);\
     INSERT INTO `all_cars` (plate, balance) VALUES ('川A23431',234);\

@@ -7,18 +7,19 @@ def license_plate(s):
     s0 = 'ABDEFGH'
     #第2～5位选择字符串
     s25 = '0123456789ABCDEFGHIJKLMNPQRSTUVWXYZ'
-    #生成号牌字头
+    #号牌字头
     plate.append(f'{s}{r.choice(s0)}-')
-    #生成第一位数字
+    #第一位数字
     plate.append(str(r.randint(0, 9)))
-    #生成号牌第2～5位字符
+    #第2～5位字符
     plate.append(''.join([r.choice(s25) for i in range(5)]))
     return ''.join(plate)
 
 if __name__=='__main__':
-    city = '川' #更改城市简称，即可生成该城市牌号
+    city = '川' #更改城市
     print()
     license_plates = []
+    # open(PlateList.txt, mode='t')
     for i in range(5):
         # 要数字的话用这句
         # s = f'{(i+1):3d}. {license_plate(city)}'

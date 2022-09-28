@@ -10,11 +10,13 @@ connection = mysql.connector.connect(host='localhost',
 
 cursor = connection.cursor()
 
-cursor.execute("SHOW DATABASES;")
+print(connection)
 
-records = cursor.fetchall()
-for r in records:
-    print(r)
+# records = cursor.fetchall()
+# for r in records:
+#     print(r)
+
+
 
 
 cursor.close()

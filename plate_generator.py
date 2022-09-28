@@ -1,5 +1,4 @@
-import random as r #载入随机数模块重命名为r
-import random
+import random as r#载入随机数模块重命名为r
 
 def license_plate(s):
     '''车辆号牌随机'''
@@ -20,18 +19,18 @@ if __name__=='__main__':
     city = '川' #更改城市简称，即可生成该城市牌号
     print()
     license_plates = []
-    for i in range(5000):
+    for i in range(5):
         # 要数字的话用这句
         # s = f'{(i+1):3d}. {license_plate(city)}'
-        random_num = random.randint(10,10000)
+        random_num = r.randint(10,10000)
         s = f'{license_plate(city)}' + '\', '
-        front = '  INSERT INTO `all_cars` (plate, balance) VALUES (\''
+        front = '    INSERT INTO `all_cars` (plate, balance) VALUES (\''
         print(front + f'{s}' + str(random_num) + ');\\')
         license_plates.append(s[4:])
 
 
     # print('﹊'*21)
-    # choice = int(input(f'\n请选择您心仪的号码:'))
+    # choice = int(input(f'\n请选择您的号码:'))
     # print('\n'*1)
     # print('﹊'*21)
     # print(f'    您选中的号牌是：{license_plates[choice-1]}')

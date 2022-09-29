@@ -22,5 +22,3 @@
 记得加 `#include "Python.h"`
 具体看这个链接：
 [我是链接](https://blog.csdn.net/zhangdell/article/details/121661409?ops_request_misc=&request_id=&biz_id=102&utm_term=在%20c%20里调用python&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-0-121661409.142^v50^control,201^v3^control_2&spm=1018.2226.3001.4449)
-
-

@@ -1,14 +1,29 @@
 import random
+from venv import create
 import mysql.connector
 
-def execute():
-    connection = mysql.connector.connect(host='localhost',
-                                     port='3306',
-                                     user='root',
-                                     password='TstwTdtct42',
-                                     database='ETC_CARS'
-                                     )
+# def init():
+    
+    
 
+def create(connection):
+    cursor = connection.cursor()
+
+    cursor.execute("CREATE DATABASE `ETC_CARS`;")
+    cursor.execute("USE `ETC_CARS`;")
+
+    cursor.execute("CREATE TABLE all_cars(  \
+        `ic`		VARCHAR(128),           \
+        `plate`		VARCHAR(30) UNIQUE,     \
+        `balance`	INT,                    \
+        PRIMARY KEY (`plate`)               \
+    );                                      \
+    ")
+
+    cursor.close()
+    connection.close()
+
+def execute(connection):
     cursor = connection.cursor()
 
     for i in range(0, len(license_plates)):
@@ -34,7 +49,27 @@ def license_plate(s):
     plate.append(''.join([random.choice(s25) for i in range(5)]))
     return ''.join(plate)
 
+def select(connection):
+    cursor = connection.cursor()
+
+    cursor.execute("SELECT * FROM `all_cars`;")
+    records = cursor.fetchall()
+    for r in records:
+        print(r)
+
+
+    cursor.close()
+    connection.close()
+
 if __name__=='__main__':
+    # init()
+    connection = mysql.connector.connect(host='localhost',
+                                     port='3306',
+                                     user='root',
+                                     password='TstwTdtct42',
+                                     # database='ETC_CARS'
+                                     )
+    create(connection)
     city = '川' #更改城市
     license_plates = [] #用来存储车牌号 这一行和下一行用set()来避免重复，但是不能用append()，要add()
     random_num_list = [] #用来存储钱
@@ -48,6 +83,8 @@ if __name__=='__main__':
         # s = f'{s}' + '\', '
         # front = '  INSERT INTO `all_cars` (plate, balance) VALUES (\'' + f'{s}' + str(random_num) + ');'
         # print(front)
-    execute()
+    execute(connection)
+    select(connection)
+
 
     

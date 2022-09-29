@@ -13,11 +13,12 @@
    1. 运行 `Init_database.py` 以初始化
    2. 运行 `plate_generator.py` 以插入车牌
    3. 运行 `Select_data.py` 以查看车牌数据
-   4.  运行 `Show_database.py` 以检查所有 DATABASE
-   5.  如果要删除所有 DATABASE 和 TABLE, 那么运行 `DELETE.py`
+   4. 运行 `Show_database.py` 以检查所有 DATABASE
+   5. 运行 `get_poor_people.py` 以获取余额低于 200 元的车辆
+   6. 如果要删除所有 DATABASE 和 TABLE, 那么运行 `DELETE.py`
 7.  表里会生成 5000 条四川的车牌和余额，ic 的所有数据为 NULL
 
-    
+
 如果要在 C 语言里使用 python 脚本，我很贴心的把所有依赖放进去了
 记得加 `#include "Python.h"`
 具体看这个链接：

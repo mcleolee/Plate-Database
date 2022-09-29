@@ -8,13 +8,15 @@
    3. `port: 3306`
 3. 密码记好，要用
 4. 配置代码我贴心的写在了每个程序前面，按你的配置填进去
-5. 运行 `Init_database.py` 以初始化
-6. 运行 `plate_generator.py` 以插入车牌
-7. 运行 `Select_data.py` 以查看车牌数据
-8. 运行 `Show_database.py` 以检查所有 DATABASE
-9. 表里会生成 5000 条四川的车牌和余额，ic 的所有数据为 NULL
-10. 如果要删除所有 DATABASE 和 TABLE ,
-    那么运行 `DELETE.py`
+5. 运行 AUTOPILOT.py 进行一键配置
+6. 如果你需要自己调试，参考下面的步骤
+   1. 运行 `Init_database.py` 以初始化
+   2. 运行 `plate_generator.py` 以插入车牌
+   3. 运行 `Select_data.py` 以查看车牌数据
+   4.  运行 `Show_database.py` 以检查所有 DATABASE
+   5.  如果要删除所有 DATABASE 和 TABLE, 那么运行 `DELETE.py`
+7.  表里会生成 5000 条四川的车牌和余额，ic 的所有数据为 NULL
+
     
 如果要在 C 语言里使用 python 脚本，我很贴心的把所有依赖放进去了
 记得加 `#include "Python.h"`

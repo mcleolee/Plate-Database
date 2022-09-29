@@ -7,7 +7,7 @@ import mysql.connector
     
 
 def create(connection):
-    cursor = connection.cursor()
+    
 
     cursor.execute("CREATE DATABASE `ETC_CARS`;")
     cursor.execute("USE `ETC_CARS`;")
@@ -20,18 +20,17 @@ def create(connection):
     );                                      \
     ")
 
-    cursor.close()
-    connection.close()
+    # cursor.close()
+    # connection.close()
 
 def execute(connection):
-    cursor = connection.cursor()
 
     for i in range(0, len(license_plates)):
         cursor.execute('insert into `all_cars` (plate, balance) values (%s,%s)',(license_plates[i],random_num_list[i]))
 
-    cursor.close()
+    # cursor.close()
     connection.commit() 
-    connection.close()
+    # connection.close()
 
 
 def license_plate(s):
@@ -50,7 +49,6 @@ def license_plate(s):
     return ''.join(plate)
 
 def select(connection):
-    cursor = connection.cursor()
 
     cursor.execute("SELECT * FROM `all_cars`;")
     records = cursor.fetchall()
@@ -58,17 +56,18 @@ def select(connection):
         print(r)
 
 
-    cursor.close()
-    connection.close()
+    # cursor.close()
+    # connection.close()
 
 if __name__=='__main__':
     # init()
-    connection = mysql.connector.connect(host='localhost',
+    connection = mysql.connector.connect(host='127.0.0.1',
                                      port='3306',
                                      user='root',
                                      password='TstwTdtct42',
                                      # database='ETC_CARS'
                                      )
+    cursor = connection.cursor()
     create(connection)
     city = '川' #更改城市
     license_plates = [] #用来存储车牌号 这一行和下一行用set()来避免重复，但是不能用append()，要add()
@@ -84,7 +83,9 @@ if __name__=='__main__':
         # front = '  INSERT INTO `all_cars` (plate, balance) VALUES (\'' + f'{s}' + str(random_num) + ');'
         # print(front)
     execute(connection)
-    select(connection)
+    # select(connection)
+    cursor.close()
+    connection.close()
 
 
     
